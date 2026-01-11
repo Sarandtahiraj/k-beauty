@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover premium K-Beauty skincare products for hydrated, glowing skin.">
+    <meta name="keywords" content="K-Beauty, skincare, hydrating, face cleaning, peptides, hyaluronic acid">
+    <title>K-Beauty Shop | Premium Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header" role="banner">
+        <nav class="nav" aria-label="Main navigation">
+            <div class="logo" aria-label="K-Beauty Shop logo">K-BEAUTY</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle mobile menu" aria-expanded="false">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li> 
+            </ul>
+            <div class="profile" role="button" aria-label="User profile">
+                <img src="https://img.icons8.com/?size=100&id=111473&format=png&color=000000" width="40" alt="Profile icon">
+            </div>
+        </nav>        
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="title-1">HYDRATING & FACE CLEANING</h1>
+                    <img src="fotot/image-removebg-preview.png" alt="PEPTARONIC Cream - Hyaluronic Acid Serum">
+                </div>
+                <div class="pershkrimi">
+                    <p>A rich, powerful, yet delicate treatment ampoule developed to nourish, smooth and brighten your skin. 5 kinds of hyaluronic acids and 6 kinds of peptides keep skin hydrated and firm.</p>
+                    <button class="button1">BUY NOW</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="left-about">
+                    <img src="fotot/about.jpg" alt="Woman applying skincare product" width="400">
+                </div>
+                <div class="about-2">
+                    <h2>About PEPTARONIC</h2>
+                    <p>PEPTARONIC Cream is a high-performance moisturizing formula developed to deeply hydrate and revitalize the skin. Enriched with peptides and multiple forms of hyaluronic acid, it helps strengthen the skin barrier, improve elasticity, and retain moisture for extended periods.</p>
+                    <p>Its lightweight, non-sticky texture glides smoothly onto the skin, delivering nourishment without clogging pores. Suitable for morning and evening use, PEPTARONIC Cream supports a smoother, more youthful-looking complexion.</p>
+                    <button class="button2">See Our Products</button>
+                </div>
+            </div>
+            <div class="sell-items">
+                <ul class="sell-list">
+                    <li><h3>Peptides</h3></li>
+                    <li><h3>Hyaluronic Acid</h3></li>
+                    <li><h3>Moisturizing</h3></li>
+                    <li><h3>Non-Sticky Texture</h3></li>
+                    <li><h3>Lightweight Formula</h3></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="product-content">
+                <h2>Our Products</h2>
+                <p>Explore our range of K-Beauty products designed to enhance your skincare routine.</p>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="fotot/product2.png" alt="Hydrating Serum">
+                        <h3>Hydrating Serum</h3>
+                        <p>$29.99</p>
+                        <button class="button2">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="fotot/product3.png" alt="Cleansing Foam">
+                        <h3>Cleansing Foam</h3>
+                        <p>$24.99</p>
+                        <button class="button2">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="fotot/product4.png" alt="Night Cream">
+                        <h3>Night Cream</h3>
+                        <p>$34.99</p>
+                        <button class="button2">Add to Cart</button>
+                    </div>
+                    <div class="product-item hidden">
+                        <img src="fotot/product5.png" alt="Sunscreen SPF 50">
+                        <h3>Sunscreen SPF 50</h3>
+                        <p>$19.99</p>
+                        <button class="button2">Add to Cart</button>
+                    </div>
+                    <div class="product-item hidden">
+                        <img src="fotot/product5.png" alt="Toner Essence">
+                        <h3>Toner Essence</h3>
+                        <p>$22.99</p>
+                        <button class="button2">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="load-more-wrapper">
+                    <button class="button2" id="loadMoreBtn">Load More Products</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or inquiries, feel free to reach out to us using the form below.</p>
+                    <form class="contact-f" action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button class="button2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 K-Beauty Shop by Saranda Tahiraj. All rights reserved.</p>
+        <p class="footer-links">
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Shipping Info</a>
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
